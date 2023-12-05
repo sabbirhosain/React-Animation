@@ -2,11 +2,11 @@ import React from 'react';
 // https://www.npmjs.com/package/react-countup
 // https://github.com/glennreyes/react-countup
 import CountUp from 'react-countup';
-const AutoCounterUpPackage = () => {
+const AutoCounterUpPackage = ({ start, end, duration }) => {
   return (
     <>
-      <CountUp start={0} end={1000} decimal="," duration={5} /><br />
-      <CountUp start={0} end={100} duration={5} />
+      <CountUp start={start} end={end} decimal="," duration={duration} /><br />
+      {/* <CountUp start={0} end={100} duration={5} /> */}
     </>
   )
 }

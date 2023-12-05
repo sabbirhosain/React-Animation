@@ -1,3 +1,6 @@
+// https://www.npmjs.com/package/typewriter-effect
+// https://github.com/tameemsafi/typewriterjs
+
 import Typewriter from 'typewriter-effect';
 
 const AutoTyperPackage = () => {
